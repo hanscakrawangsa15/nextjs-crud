@@ -26,6 +26,14 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
+
+# GCP service account keys — NEVER commit
+*.json
+!package.json
+!package-lock.json
+!jsconfig.json
+!.eslintrc.json
 
 # vercel
 .vercel
